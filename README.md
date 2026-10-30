@@ -1,104 +1,120 @@
 # 📊 SQL Data Analysis Portfolio
 
-## 📌 About This Repository
+Welcome to my SQL Portfolio! This repository showcases my practical work in SQL, focusing on data cleaning, exploratory data analysis, data transformation, and extracting meaningful insights from structured datasets.
 
-Welcome to my SQL Data Analysis Portfolio!
-
-This repository contains my SQL projects and practice work, focusing on data cleaning, data exploration, and extracting meaningful insights from structured datasets.
-
-I use MySQL to practise and demonstrate SQL techniques commonly used in data analytics.
+I use SQL to explore real-world datasets, solve data-related problems, and develop analytical skills.
 
 ## 🛠️ Tools & Technologies
 
-- MySQL
+- **MySQL:** COVID-19 Data Exploration
+- **Microsoft SQL Server:** Nashville Housing Data Cleaning
 - MySQL Workbench 8.0
-- SQL
+- SQL Server Management Studio (SSMS)
 
 ## 📂 Projects
 
-### 1. COVID-19 Data Analysis
+### 1. 🌍 COVID-19 Data Exploration
 
-**Tools:** MySQL
+**Database:** MySQL
 
 **Project Overview:**
 
-An exploratory data analysis project using COVID-19 data to investigate cases, deaths, and vaccination trends across different locations and time periods.
+An exploratory data analysis project using COVID-19 datasets to investigate infection rates, death percentages, and vaccination trends across different countries and continents.
 
-**Analysis Areas:**
-- Exploring total COVID-19 cases and deaths.
-- Analysing death percentages.
-- Comparing infection rates across locations.
-- Examining vaccination progress.
-- Identifying trends over time.
+**Analysis Performed:**
 
-**SQL Concepts:**
-- SELECT and WHERE
-- GROUP BY and ORDER BY
+- Explored total COVID-19 cases and deaths.
+- Calculated death percentages.
+- Analysed infection rates in relation to population.
+- Identified countries with high infection and death counts.
+- Compared COVID-19 statistics across continents.
+- Explored global case and death trends.
+- Joined COVID-19 deaths and vaccination datasets.
+- Examined vaccination data and population statistics.
+
+**SQL Concepts Used:**
+
+- SELECT, WHERE, GROUP BY and ORDER BY
 - Aggregate Functions
 - Joins
 - Common Table Expressions (CTEs)
 - Window Functions
 - Temporary Tables
+- Views
+- Data Type Conversion
 
-### 2. Nashville Housing Data Cleaning
+**Project File:** `covid project.sql`
 
-**Tools:** MySQL
+### 2. 🏠 Nashville Housing Data Cleaning
+
+**Database:** Microsoft SQL Server
 
 **Project Overview:**
 
-A data cleaning project focused on preparing housing data for further analysis by identifying and handling common data quality issues.
+A data cleaning project focused on improving the quality and consistency of Nashville housing data to prepare it for further analysis.
 
-**Data Cleaning Techniques:**
-- Identifying and handling duplicate records.
-- Standardising date formats.
-- Handling missing values.
-- Splitting address information.
-- Standardising inconsistent data.
+**Data Cleaning Operations:**
 
-### 3. SQL Data Cleaning Practice
+- Converted sale date values into date format.
+- Identified missing property addresses.
+- Used self-joins to retrieve matching property address information.
+- Split property addresses into separate address and city columns.
+- Extracted owner address, city, and state information.
+- Standardised SoldAsVacant values from Y/N to Yes/No.
+- Identified duplicate records using ROW_NUMBER() and CTEs.
+- Removed unnecessary columns from the dataset.
 
-This section contains SQL queries and exercises focused on improving data quality and practising different data cleaning techniques.
+**SQL Concepts Used:**
 
-### 4. SQL Practice Queries
+- UPDATE and ALTER TABLE
+- CONVERT
+- JOIN
+- ISNULL
+- SUBSTRING and CHARINDEX
+- PARSENAME and REPLACE
+- CASE Statements
+- Common Table Expressions (CTEs)
+- ROW_NUMBER() and PARTITION BY
+- DROP COLUMN
 
-A collection of SQL exercises designed to strengthen my understanding of SQL concepts and improve my analytical problem-solving skills.
+**Project File:** `Data Cleaning Portfolio Project Queries.sql`
 
-## 📚 Skills Demonstrated
+### 3. 🧹 SQL Data Cleaning Practice
 
-- Data Exploration
-- Data Cleaning
+A collection of SQL exercises focused on understanding data quality, handling missing values, transforming data, and practising data cleaning techniques.
+
+**Project File:** `data cleaning practice.sql`
+
+### 4. 📝 SQL Practice Queries
+
+A collection of SQL queries and exercises developed to strengthen my understanding of SQL fundamentals and improve analytical problem-solving skills.
+
+**Project File:** `sql practice.sql`
+
+## 💡 Skills Demonstrated
+
+- Exploratory Data Analysis
+- Data Cleaning and Transformation
+- Working with Multiple Tables
 - Data Aggregation
-- Joining Multiple Tables
-- Writing Analytical Queries
-- Working with Large Datasets
+- Handling Missing Values
+- Identifying Duplicate Records
+- Writing Analytical SQL Queries
 - Extracting Insights from Structured Data
 
-## 🎯 Learning Objectives
+## 🎯 Learning Goals
 
-- Develop strong SQL skills for data analysis.
+- Strengthen advanced SQL skills.
+- Improve query-writing and problem-solving abilities.
 - Work with real-world datasets.
-- Improve data cleaning and transformation techniques.
-- Write efficient and structured SQL queries.
-- Extract meaningful insights from data.
-
-## 📁 Repository Structure
-
-```text
-data_analyst_sql_projects/
-│
-├── covid project.sql
-├── Data Cleaning Portfolio Project Queries.sql
-├── data cleaning practice.sql
-├── sql practice.sql
-│
-└── README.md
-```
+- Develop practical data analysis techniques.
+- Apply SQL to business and analytical problems.
 
 ## 👩‍💻 About Me
 
-I am an aspiring Data Analyst with an Electronics and Communication Engineering background, currently developing my skills in SQL, Microsoft Excel, and Power BI.
+I am an aspiring Data Analyst with an Electronics and Communication Engineering background, developing practical skills in SQL, Microsoft Excel, and Power BI.
 
-This repository represents my learning journey and practical application of SQL for data analytics.
+This repository represents my journey of learning and applying SQL to real-world data analysis projects.
 
 ---
 
